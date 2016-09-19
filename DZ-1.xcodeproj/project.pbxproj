@@ -13,6 +13,7 @@
 		4409D8041D901197004B5B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4409D8021D901197004B5B37 /* Main.storyboard */; };
 		4409D8061D901197004B5B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4409D8051D901197004B5B37 /* Assets.xcassets */; };
 		4409D8091D901197004B5B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4409D8071D901197004B5B37 /* LaunchScreen.storyboard */; };
+		4409D8111D90122B004B5B37 /* order.png in Resources */ = {isa = PBXBuildFile; fileRef = 4409D8101D90122B004B5B37 /* order.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4409D8051D901197004B5B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4409D8081D901197004B5B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4409D80A1D901197004B5B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4409D8101D90122B004B5B37 /* order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = order.png; path = ../../../../../Desktop/dct/order.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		4409D7F81D901197004B5B37 /* DZ-1 */ = {
 			isa = PBXGroup;
 			children = (
+				4409D8101D90122B004B5B37 /* order.png */,
 				4409D7FC1D901197004B5B37 /* AppDelegate.h */,
 				4409D7FD1D901197004B5B37 /* AppDelegate.m */,
 				4409D7FF1D901197004B5B37 /* ViewController.h */,
@@ -138,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4409D8111D90122B004B5B37 /* order.png in Resources */,
 				4409D8091D901197004B5B37 /* LaunchScreen.storyboard in Resources */,
 				4409D8061D901197004B5B37 /* Assets.xcassets in Resources */,
 				4409D8041D901197004B5B37 /* Main.storyboard in Resources */,
@@ -273,6 +277,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CAV9SBW57D;
 				INFOPLIST_FILE = "DZ-1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.decidion.DZ-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CAV9SBW57D;
 				INFOPLIST_FILE = "DZ-1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.decidion.DZ-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
